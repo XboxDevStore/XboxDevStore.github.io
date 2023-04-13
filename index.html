@@ -1,0 +1,829 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>
+        Reverie's Dev Mode Repository
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./img/revicon.png">
+</head>
+
+<body>
+    <header class="header py-2">
+        <nav class="navbar navbar-expand-lg navbar-dark  container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Dev Mode Repository<i class="bi bi-code-slash ms-2"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mt-3 mt-md-0">
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link text-white ms-lg-3" href="https://discord.gg/xboxemus" target="_blank">Discord</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link text-white ms-lg-3" href="https://discord.gg/bMH2VMwcjG" target="_blank">SirMangler's Discord</a>
+                        </li>
+                        
+                        <li class="nav-item ">
+                            <a class="nav-link text-white ms-lg-3" href="https://www.youtube.com/reveriepass" target="_blank">YouTube</a>
+                        </li>
+			<!--
+                        <iframe src="music.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+                        </iframe>
+			-->
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+	<!-- === Start of App section -->
+	<section class="apps py-4">
+        <div class="container" id="app">
+            <div class="title my-3" data-aos="fade-in" data-aos-delay="200">APPS</div>
+            <div class="row">
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/xboxusb.png" alt="Xbox Media Tool">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Xbox Media Tool
+                            </h5>
+                            <p class="card-text">
+                                A simple Windows tool to set USB permissions that are required by Xbox consoles.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/SvenGDK/XboxMediaUSB/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/SvenGDK/XboxMediaUSB" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+                <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/safeexit.png" alt="SafeExit">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Safe Exit
+                            </h5>
+                            <p class="card-text">
+                                Allows you to safely return to retail mode!
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Dantes-Dungeon/safe-exit/releases/" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/Dantes-Dungeon/safe-exit/" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/FTP.jpg" alt="DurangoFTP">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                DurangoFTP
+                            </h5>
+                            <p class="card-text">
+				Transfer files wirelessly on your local network!
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Dantes-Dungeon/DURANGO-FTP/releases/tag/v1.2" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/Dantes-Dungeon/DURANGO-FTP" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/kodi.png" alt="Kodi">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Kodi
+                            </h5>
+                            <p class="card-text">
+                                A free and open source media player application.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://mirrors.kodi.tv/releases/windows/UWP/" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://kodi.tv/" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/moonlight.png" alt="Moonlight">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Moonlight
+                            </h5>
+                            <p class="card-text">
+                                Allows you to stream your PC games to Xbox!
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/TheElixZammuto/moonlight-xbox/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/TheElixZammuto/moonlight-xbox" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+	</section>
+	<!-- === End of Apps Section -->
+
+	<section class="apps py-4">
+        <div class="container" id="app">
+            <div class="title my-3" data-aos="fade-in" data-aos-delay="200">EMULATORS</div>
+            <div class="row">
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/aether.png" alt="AetherSX2">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                AetherSX2
+                            </h5>
+                            <p class="card-text">
+                                PlayStation 2 Emulator.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://www.aethersx2.com/archive/?dir=uwp" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://www.aethersx2.com/" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/chip8.png" alt="Chip-8">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Chip-8
+                            </h5>
+                            <p class="card-text">
+                                Chip-8 Emulator.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/JodyAndrews/UWPChip8" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/JodyAndrews/UWPChip8" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/dolphin.png" alt="Dolphin">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Dolphin
+                            </h5>
+                            <p class="card-text">
+                                Wii/GameCube/Triforce Emulator.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/SirMangler/dolphin/releases/" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://dolphin-emu.org/" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/flycast.png" alt="Flycast">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Flycast
+                            </h5>
+                            <p class="card-text">
+                                Sega Dreamcast, Naomi, Naomi 2, and Atomiswave Emulator.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/flyinghead/flycast/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/flyinghead/flycast" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/nscumm.png" alt="NScummUWP">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                NScummUWP
+                            </h5>
+                            <p class="card-text">
+                                SCUMM and Virtual Theatre Emulator.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/basharast/NScummUWP/releases/" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/basharast/NScummUWP" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/ppsspp.png" alt="PPSSPP">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                PPSSPP
+                            </h5>
+                            <p class="card-text">
+                                PSP Emulator.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://mega.nz/file/pDMlXAyT#uuU8BLsSPjhzYimOk15dgqx9b6N7pnqV8o4d_4evx1Q" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://www.ppsspp.org/" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/retroarch.png" alt="Retroarch">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                RetroArch
+                            </h5>
+                            <p class="card-text">
+                                RetroArch is a multi-emulator front-end including consoles up to PS2 and Wii.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://drive.google.com/drive/folders/1vkiYvIObU6T1DvYbIE3uEFsHb39jkBio?usp=share_link" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://retroarch.com" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/retrix.png" alt="RetrixGOLD">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                RetrixGOLD
+                            </h5>
+                            <p class="card-text">
+                                The first Libretro front end that is optimized for multiple input methods.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/basharast/RetrixGold/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/basharast/RetrixGold" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/retropass.png" alt="RetroPass">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                RetroPass
+                            </h5>
+                            <p class="card-text">
+                                A simple frontend for RetroArch running on Xbox. The UI is similar to that of the Game Pass / My Games & Apps section of Xbox for a familiar feel.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/retropassdev/RetroPass/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/retropassdev/RetroPass" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/xenia.png" alt="Xenia">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Xenia
+                            </h5>
+                            <p class="card-text">
+                                Xbox 360 Emulator.
+                            </p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/SirMangler/xenia/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://xenia.jp/" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+
+                <!-- End of Apps Section -->
+    </section>
+
+	<!-- Games Section -->
+	<section class="apps py-4">
+        <div class="container" id="app">
+            <div class="title my-3" data-aos="fade-in" data-aos-delay="200">GAMES</div>
+            <div class="row">
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/am2r.png" alt="AM2R">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                AM2R
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                An unofficial remake of the 1991 Game Boy game Metroid II: Return of Samus in the style of Metroid: Zero Mission
+                            </p>
+				<p style="color: red;">
+                                NO DIRECT LINK. GOOGLE IT.
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://is.gd/YUvHhC" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Google It</a>
+                                <a data-bs-toggle="modal" href="http://metroid2remake.blogspot.com/" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/cavestory.png" alt="Cave Story">
+                       	<div class="card-body">
+                            <h5 class="card-title">
+                                Cave Story
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                A complete open-source clone/rewrite of the masterpiece jump-and-run platformer Doukutsu Monogatari (also known as Cave Story).
+                            </p>
+                            	<p style="color: green;">
+				Game files included!
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Xbox-Homebrew/nxengine-evo/releases/" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://nxengine.sourceforge.io/" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/celeste.png" alt="Classic Celeste">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Classic Celeste
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+				A PICO-8 platformer about climbing a mountain, made in four days.
+                            </p>
+				<p style="color: green;">
+				Game files included!
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Xbox-Homebrew/ccleste/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://mattmakesgames.itch.io/celesteclassic" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/DvX.png" alt="DvX">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                DevilutionX
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                A source port of Diablo and Hellfire that strives to make it simple to run the game while providing engine improvements, bugfixes, and some optional quality of life features.
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/diasurgical/devilutionX/releases/download/1.4.1/devilutionx-xbox-one-series.zip" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://www.gog.com/en/game/diablo" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/hod.png" alt="Heart of Darkness">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Heart of Darkness
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                A fiendish force scours the land in search of Andy, a young boy on a quest to rescue his dog Whisky.
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/tuxuser/hode/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://is.gd/O3veMN" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/hedge.png" alt="HedgePhysics">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                HedgePhysics
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Run amok as the Blue Blur!
+                            </p>
+				<p style="color: green;">
+				Game files included!
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://www.mediafire.com/file/4ynydo42jpt4yyk/HedgePhysics_1.2.3.0.zip" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://gbatemp.net/threads/how-to-install-a-fan-made-3d-sonic-game-on-your-xbox-one.477919/" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/jazzjack.png" alt="Jazz Jackrabbit 2">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Jazz Jackrabbit 2
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Escape the dungeon, retrieve the precious jewel, and punish Devan for his evil deeds.
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/deathkiller/jazz2/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://www.gog.com/en/game/jazz_jackrabbit_2_collection" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/openlara.png" alt="OpenLara">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                OpenLara (Tomb Raider)
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Explore Peru, Greece, Egypt and the lost continent of Atlantis in search of an ancient artifact.
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/XProger/OpenLara/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://www.gog.com/en/game/tomb_raider_123" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/opentyrian.png" alt="Opentyrian">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Opentyrian
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                An open-source port of the DOS shoot-em-up Tyrian.
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Xbox-Homebrew/opentyrian/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://is.gd/XEvUho" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/opentyrian2000.png" alt="Opentyrian2000">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Opentyrian2000
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                An open-source port of the DOS shoot-em-up Tyrian-2000.
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Xbox-Homebrew/opentyrian/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://www.gog.com/en/game/tyrian_2000" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/relic.png" alt="Relic Hunters Zero">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Relic Hunters Zero
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                A remaster of the FREE 1 million player hit game about blasting evil space ducks and turtles with tiny cute guns. 
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/MDashK/Relic-Hunters-Zero-Xbox/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://store.steampowered.com/app/382490/Relic_Hunters_Zero_Remix/" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/sdlpop.png" alt="Prince of Persia">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                               SdlPOP (Prince of Persia)
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Navigate dungeons by running, climbing, and avoiding traps. A familiar looking pursuer awaits.
+                            </p>
+				<p style="color: green;">
+				Game files included!
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Xbox-Homebrew/SDLPoP/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/Xbox-Homebrew/SDLPoP" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/sonic1.png" alt="Sonic the Hedgehog">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic the Hedgehog
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Play as a blue little lad and destroy the monstrous rancid EggMan.
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://store.steampowered.com/app/1794960/Sonic_Origins/" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/sonic2.png" alt="Sonic the Hedgehog 2">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic the Hedgehog 2
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Play as a blue little lad and destroy the monstrous rancid EggMan. This time with a friend!
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://store.steampowered.com/app/1794960/Sonic_Origins/" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/Son1SMS.gif" alt="Sonic 1 SMS Remake">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic 1 Sms Remake
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                This game is a redesigned version of the Master System released by SEGA in 1991
+                            </p>
+				<p style="color: green;">
+				Game files included!
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/MDashK/sonic-1-sms-remake-xbox/releases/download/v1.9.2-xbox/Sonic1SMSRemake.appx" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/MDashK/sonic-1-sms-remake-xbox" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/Son2SMS.png" alt="Sonic 2 SMS Remake">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic 2 Sms Remake
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                This game is a redesigned version of the Master System released by SEGA in 1992
+                            </p>
+				<p style="color: green;">
+				Game files included!
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/MDashK/sonic-2-sms-remake-xbox/releases/download/v2.9.2-xbox/Sonic2SMSRemake.appx" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/MDashK/sonic-2-sms-remake-xbox" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/soniccd2.png" alt="Sonic CD">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic CD
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Travel through time to defeat a metallic doppelganger and save your platonic pink friend! 
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://store.steampowered.com/app/1794960/Sonic_Origins/" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/sonicmania.png" alt="Sonic Mania">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic Mania
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Re-live the Sonic of the past with an exciting new twist on classic zones while fighting against new bosses and Dr. Eggman's evil robot army.
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/WamWooWam/RSDKv5-Decompilation/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://store.steampowered.com/app/584400/Sonic_Mania/" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/STT.png" alt="Sonic Time Twisted">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sonic Time Twisted
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Sonic Time Twisted is an unofficial classic-style Sonic the Hedgehog fangame
+                            </p>
+				<p style="color: green;">
+				Game files included!
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://www.mediafire.com/file/74shtqbyzr4q2dg/Sonic_Time_Twisted_%255BUnofficial%255D_%2528v1.1.2.0%2529.appx/file" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/overbound/SonicTimeTwisted" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/trogdor.png" alt="Trogdor-Reburninated">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Trogdor-Reburninated
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                Trogdor burninates the countryside, peasants, and thatched-roof cottages of Peasantry.
+                            </p>
+				<p style="color: green;">
+				Game files included!
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/Xbox-Homebrew/Trogdor-Reburninated/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://github.com/Xbox-Homebrew/Trogdor-Reburninated" class="col-md-4 btn btn-dark">Official Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+		    
+		    <div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/vvvvvv.png" alt="VVVVVV">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                VVVVVV
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                A challenging 2D action/platformer with one deceptively simple gameplay mechanic.
+                            </p>
+				<p style="color: green;">
+				Game files included!
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/tunip3/DURANGO-V6/releases" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://thelettervsixtim.es/" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+		    
+		<div class="col-md-4 my-3" data-aos="zoom-in" data-aos-duration="400">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="./img/zelda3.png" alt="Zelda3">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Zelda3
+                            </h5>
+                            <p class="card-text" style="margin-bottom: 0;">
+                                A young boy named Link has to save Princess Zelda and six other maidens from Ganon using the Master Sword to save them.
+                            </p>
+				<p style="color: red;">
+                                REQUIRES GAME FILES
+                            	</p>
+                            <div class="row justify-content-around">
+                                <a href="https://github.com/tunip3/zelda3/releases/" class="col-md-4 mb-md-0 mb-3 btn btn-secondary bg-success">Download App</a>
+                                <a data-bs-toggle="modal" href="https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=a+link+to+the+past+snes&_sacat=0&LH_TitleDesc=0&_odkw=a+link+to+the+past&_osacat=0" class="col-md-4 btn btn-dark">Purchase Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+	</section>
+	<!-- End of Games Section -->
+		
+    <footer class="footer py-3">
+        <div class="container">
+            <span>Thanks to SirMangler, TXF, GoldenSky, and Bl4ckH4nd for all the help! All rights reserved - Reverie - <script>
+          document.write(new Date().getFullYear())
+        </script></span>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- Bootstrap5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+</body>
+
+</html>
