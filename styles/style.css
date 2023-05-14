@@ -2,6 +2,14 @@ html {
     scroll-behavior: smooth;
 }
 
+/* The music image */
+
+img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
 body {
     background: #6699ff;
     background-repeat: no-repeat;
