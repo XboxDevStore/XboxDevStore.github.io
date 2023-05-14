@@ -62,7 +62,7 @@ body {
 
 /* The alert message box */
 
-.alert {
+.alertcentered {
     padding: 20px;
     background-color: #f44336;
     /* Red */
@@ -71,13 +71,29 @@ body {
     text-align: center;
 }
 
-.alert2 {
+.alertcentered2 {
     padding: 20px;
     background-color: #5F9EFF;
     /* Blue */
     color: white;
     margin-bottom: 15px;
     text-align: center;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+.alert2 {
+    padding: 20px;
+    background-color: #5F9EFF;
+    /* Blue */
+    color: white;
+    margin-bottom: 15px;
 }
 
 
