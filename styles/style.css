@@ -62,7 +62,7 @@ body {
 
 /* The alert message box */
 
-.alertcentered {
+.alertcenteredred {
     padding: 20px;
     background-color: #f44336;
     /* Red */
@@ -71,7 +71,7 @@ body {
     text-align: center;
 }
 
-.alertcentered2 {
+.alertcenteredblue {
     padding: 20px;
     background-color: #5F9EFF;
     /* Blue */
@@ -80,7 +80,7 @@ body {
     text-align: center;
 }
 
-.alert {
+.alertred {
     padding: 20px;
     background-color: #f44336;
     /* Red */
@@ -88,7 +88,7 @@ body {
     margin-bottom: 15px;
 }
 
-.alert2 {
+.alertblue {
     padding: 20px;
     background-color: #5F9EFF;
     /* Blue */
